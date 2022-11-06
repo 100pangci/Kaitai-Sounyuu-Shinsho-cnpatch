@@ -1,0 +1,11 @@
+(a3:define-set (0 0)
+(a3:call-far 9000 1)
+(a3:call-far 9020 4)
+(a3:eval-noeffect (a3:assign-word 1066 0)
+)
+(a3:call-user-func 2050)
+(a3:call-user-func 2120)
+(a3:call-user-func 2021 0)
+(a3:call-user-func 2090 "parts\movie\dust.mpg" 0)
+(a3:jump 9000)
+) ;; end of define-set 
